@@ -1,3 +1,51 @@
+# Demlur — Tienda de celulares (Next.js + TypeScript)
+
+Proyecto de ejemplo con Next.js (app dir), TypeScript y Tailwind. Incluye un catálogo simple, contexto de carrito y un pequeño servidor Express opcional.
+
+Cómo ejecutar (desarrollo)
+
+1. Instalar dependencias:
+
+```powershell
+cd C:\Users\USER\demlur-proyecto
+npm install
+```
+
+2. Levantar frontend (Next.js):
+
+```powershell
+npm run dev
+```
+
+3. (Opcional) Levantar backend Express (ts-node):
+
+```powershell
+npm run server
+```
+
+Empujar este repositorio a GitHub
+
+- Recomiendo usar GitHub CLI (`gh auth login`) o configurar una llave SSH en tu equipo. Evita insertar tokens en texto plano.
+
+Comandos mínimos (HTTPS) para subir el proyecto a `https://github.com/GuillermoJimenezT/Demlur.git` desde PowerShell:
+
+```powershell
+cd C:\Users\USER\demlur-proyecto
+git init
+git add .
+git commit -m "Initial Demlur project"
+git remote add origin https://github.com/GuillermoJimenezT/Demlur.git
+git branch -M main
+git push -u origin main
+```
+
+Si usas un token personal para autenticación HTTPS en el prompt, introdúcelo cuando Git lo pida — pero **no** pegues el token en lugares públicos ni en este chat. Mejor: usa `gh auth login` o una llave SSH.
+
+Si quieres, puedo preparar un script o ayudarte a configurar SSH/GH CLI.
+
+Licencia
+
+Este repositorio es un ejemplo; ajusta la licencia según necesites.
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
