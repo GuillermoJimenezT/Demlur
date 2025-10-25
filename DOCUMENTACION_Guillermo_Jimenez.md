@@ -4,8 +4,7 @@ Autor: Guillermo Jimenez
 
 Fecha: 25/10/2025
 
-Resumen
--------
+Repo: https://github.com/GuillermoJimenezT/Demlur.git
 
 Demlur es una aplicación web de ejemplo desarrollada con Next.js (App Router) y TypeScript que simula la venta online de teléfonos celulares. El propósito del proyecto es demostrar conceptos fundamentales de desarrollo web moderno: estructura de una aplicación React/Next, manejo de estado con Context API, integración básica de un backend con Express y diseño con Tailwind CSS.
 
